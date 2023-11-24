@@ -37,7 +37,7 @@ const questionsData =[
 },
 {
   question: 'The major source of energy to the earth is?',
-  options: ['Electricity', 'Light', 'Sun', 'Fuel',],
+  options: ['Electrity', 'Liht', 'Sun', 'Fuel',],
   answer:'Sun',
 },
 {
