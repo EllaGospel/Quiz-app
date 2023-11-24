@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins';
+  display: flex;
+  justify-content: center;
+}
+.first-background-div{
+  background-color: #76a6cf;
+  width: 800px;
+  height: 500px;
+  border-radius: 12px;
+}
+.quiz-container{
+  width: 350px;
+  padding: 20px;
+  margin-top: 70px;
+  background-color: #dcc8c8;
+  box-shadow:  0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+/* style for desktop view (screen width >768px) */
+@media screen and (min-width:768px){
+  .quiz-container{
+    margin-left:80px;
+  }
+  .quiz-app{
+    margin-left:200px;
+    margin-top: 5px;
+  }
+  .first-background-div{
+  background-color: #7898b4;
+  width: 500px;
+  height: 550px;
+  border-radius: 12px;
+  margin-top: 25px;
+  }
+}
+.btn{
+  padding: 10px 20px;
+  background-color: #4e94d1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.quiz-result{
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.hide{
+    display: none;
+}
+.options {
+    margin-bottom: 20px;
+  }
+  
+  .option {
+    display: block;
+    margin-bottom: 10px;
+  } 
+  .label, .option{
+    margin: 5px;
+  }
+  #show-answer{
+    margin-top:14px;
+  }
+  .quiz-time{
+    color: white;
+    display: flex;
+    justify-content: end;
+    margin-right: 200px;
+    padding-top: 30px;
+  }
+  .btn-for-start{
+  padding: 10px 20px;
+  background-color: #4e94d1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-top: 10px;
+  } 
+  .for-nxt-btn{
+    display: none !important;
+  }
+  .instruction{
+    margin-top: 10px;
+    font-family:'Poppins';
+    font-weight:400;
+  }
+  /* style for mobile view view (screen width <767px) */
+@media (max-width:767px){ 
+  .quiz-container{
+    margin-left: 10px;
+  } 
+  .quiz-app{
+    margin-left: 130px;
+  }
+  }
+
+  .btn-for-retry{
+    display: none;
+  }
+  input[type="radio"] {
+    margin-right: 5px; /* Adjust the spacing between the radio button and the label */
+    width: 15px;
+    height: 15px;
+  }
+  
+
+
+
+
+
+
+  
+
+  
+
+  
+  
+  
+
+  
+  

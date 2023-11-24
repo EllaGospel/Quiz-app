@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interactive Quiz Application</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+
+    <div class="first-background-div">
+        <h3 class="quiz-app">QUIZ APP</h3>
+       <div class="quiz-time">
+          <p>Time :
+            <span id="timer">0</span>
+          </p>
+       </div> 
+ <div class="quiz-container">
+    <div id="quiz-start">
+        <div class="landing" id="start-screen">
+            <h2>
+              Quiz Challenge
+            </h2>
+            <p class="instruction">Answer the following ten (10) current affaires and science questions. Each question takes 15 seconds</p>
+            <button id="start-quiz-btn" class="btn-for-start">
+                Start Quiz
+            </button>
+        </div>
+    </div>
+    <div id="quiz-question"></div>
+    <div id="quiz-result" class=""></div>
+    <button id="previous-btn" class="btn hide">Previous</button>
+    <button id="submit-btn" class="btn">submit</button>
+    <button id="next-btn" class="btn hide for-nxt-btn">Next</button>
+    <!-- // retryButton.style.display = 'inline-block'; was commented out in js having the fuction function displayResult() to make the retry button not to fuction -->
+    <button id="retry-btn" class="btn hide btn-for-retry">Retry</button> 
+    <button id="show-answer" class="btn hide">Show Answer</button>
+ </div>
+ </div>
+
+    <script src="/js/index.js"></script> 
+</body>
+</html>
+
+
