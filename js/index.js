@@ -32,23 +32,23 @@ const questionsData =[
 },
 {
   question: 'What is a 50th anniversary called?',
-  options: ['Electricity', 'Light', 'Sun', 'Fuel',],
-  answer:'Sun',
+  options: ['Platinum jubilee', 'Golden jubilee', 'Diamond jubilee', 'Sapphire jubilee',],
+  answer:'Golden jubilee',
 },
 {
-  question: 'The major source of energy to the earth is?',
-  options: ['Electrity', 'Liht', 'Sun', 'Fuel',],
-  answer:'Sun',
+  question: 'The three primary colors are?',
+  options: [' Red Yellow Blue', 'Orange Green Violet', ' Red Orange Yellow', 'Yellow Green Blue',],
+  answer:'Red Yellow Blue',
 },
 {
-  question: 'The major source of energy to the earth is?',
-  options: ['Electricity', 'Light', 'Sun', 'Fuel',],
-  answer:'Sun',
+  question: 'How many legs does an ant have?',
+  options: ['8', '7', '6', '5',],
+  answer:'6',
 },
 {
-  question: 'The major source of energy to the earth is?',
-  options: ['Electricity', 'Light', 'Sun', 'Fuel',],
-  answer:'Sun',
+  question: 'what state is the sun?',
+  options: ['solid', 'liquid', 'aqueous', 'gaseous',],
+  answer:'gaseous',
 },
 ]
 

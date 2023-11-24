@@ -108,6 +108,10 @@ body{
   .quiz-app{
     margin-left: 130px;
   }
+  .first-background-div{
+    height: 550px
+  }
+  
   }
 
   .btn-for-retry{
