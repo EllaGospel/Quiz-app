@@ -219,7 +219,7 @@ quizResult.innerHTML = `<p style="color: red;">You scored ${score} out of ${ques
       function showAnswer() {
       quizQuestion.style.display = 'none';
       submitButton.style.display = 'none';
-      retryButton.style.display = 'inline-block';
+      // retryButton.style.display = 'inline-block';
       showAnswerButton.style.display = 'none';
     
       let wrongAnswerHtml = '';
