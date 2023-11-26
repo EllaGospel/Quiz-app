@@ -242,7 +242,7 @@ quizResult.innerHTML = `<p style="color: red;">You scored ${score} out of ${ques
   
     
     submitButton.addEventListener('click', checkAnswer);
-     retryButton.addEventListener('click', retryQuiz);
+    //  retryButton.addEventListener('click', retryQuiz);
     showAnswerButton.addEventListener('click', showAnswer);
     previousButton.addEventListener('click', showPreviousQuestion);
     nextButton.addEventListener('click', showNextQuestion);

@@ -98,7 +98,7 @@ body{
   /* style for mobile view view (screen width <767px) */
 @media (max-width:767px){ 
   .quiz-container{
-    margin-left: 10px;
+    margin-left: 8px;
   } 
   .quiz-app{
     margin-left: 130px;
