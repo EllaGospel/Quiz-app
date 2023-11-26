@@ -11,12 +11,6 @@ body{
   display: flex;
   justify-content: center;
 }
-.first-background-div{
-  background-color: #76a6cf;
-  width: 800px;
-  height: 500px;
-  border-radius: 12px;
-}
 .quiz-container{
   width: 350px;
   padding: 20px;
@@ -35,12 +29,13 @@ body{
     margin-top: 5px;
   }
   .first-background-div{
-  background-color: #7898b4;
-  width: 500px;
-  height: 550px;
-  border-radius: 12px;
-  margin-top: 25px;
+    background-color: #76a6cf;
+    width: 500px;
+    height: 600px;
+    border-radius: 12px;
   }
+  
+  
 }
 .btn{
   padding: 10px 20px;
@@ -109,7 +104,10 @@ body{
     margin-left: 130px;
   }
   .first-background-div{
-    height: 750px;
+    background-color: #76a6cf;
+    width: 800px;
+    height: 700px;
+    border-radius: 12px;
   }
   
   }
